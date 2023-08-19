@@ -42,7 +42,7 @@ const Header = () => {
             />
           )}
         </div>
-        <nav className={`space-x-4 md:flex md:items-center ${isMenuOpen ? 'block' : 'hidden'}`}>
+        <nav className={`md:flex md:items-center lg:space-x-4 ${isMenuOpen ? 'block' : 'hidden'}`}>
           <Link
             to="home"
             smooth={true}

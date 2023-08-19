@@ -39,8 +39,9 @@ const Contact = () => {
   }, [alert]);
 
   return (
-    <section id="contact" className="h-screen grid place-items-center text-white">
-      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+    <section id="contact" className="py-10 grid place-items-center text-white">
+      <div className="">
+      <div className='text-4xl font-bold my-4 text-center'>Contacto:</div>
         <BgCard>
           <div className="p-4">
             <div className="grid grid-cols-2">
@@ -58,8 +59,7 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='grid gap-y-2'>
               <label>Name</label>
               <input className="w-full p-2 rounded-md bg-[#0F0F10]" type="text" name="user_name" />
               <label>Email</label>
@@ -68,8 +68,6 @@ const Contact = () => {
               <textarea className="w-full p-2 rounded-md bg-[#0F0F10]" name="message" />
               <input className="bg-blue-500 text-white py-2 px-4 rounded-md mt-2" type="submit" value="Send" />
             </form>
-
-
             {alert === 'success' && (
               <div className="mt-4 p-2 bg-green-500 text-white rounded-md">
                 Correo enviado con éxito.
@@ -82,7 +80,6 @@ const Contact = () => {
             )}
           </div>
         </BgCard>
-        <img src={contact} className="hidden lg:block" alt="Contact" />
       </div>
     </section>
   );
