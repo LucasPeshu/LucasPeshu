@@ -60,13 +60,13 @@ const Contact = () => {
               </div>
             </div>
             <form ref={form} onSubmit={sendEmail} className='grid gap-y-2'>
-              <label>Name</label>
+              <label>Nombre:</label>
               <input className="w-full p-2 rounded-md bg-[#0F0F10]" type="text" name="user_name" />
-              <label>Email</label>
+              <label>Email:</label>
               <input className="w-full p-2 rounded-md bg-[#0F0F10]" type="email" name="user_email" />
-              <label>Message</label>
+              <label>Mensaje:</label>
               <textarea className="w-full p-2 rounded-md bg-[#0F0F10]" name="message" />
-              <input className="bg-blue-500 text-white py-2 px-4 rounded-md mt-2" type="submit" value="Send" />
+              <input className="bg-blue-500 text-white py-2 px-4 rounded-md mt-2" type="submit" value="Enviar" />
             </form>
             {alert === 'success' && (
               <div className="mt-4 p-2 bg-green-500 text-white rounded-md">
