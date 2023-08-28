@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className='text-4xl font-bold mt-4'>Proyectos:</div>
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
     <RoundedCard imageSrc={noticiero} link="https://noticierovm.fly.dev/" title="NoticieroVM" text="Esta página fue construida con Django y Bootstrap para poner a prueba mis conocimientos y habilidades con estás herramientas." />
-    <RoundedCard imageSrc={taps} link="https://gitlab.com/taps-devs/landing" title="TAPS" text="Proyecto realizado con un equipo en un emprendimiento propio, realizado con las herramientas Svelte y Tailwind CSS." />
+    <RoundedCard imageSrc={taps} link="https://taps.saez.work/" title="TAPS" text="Proyecto realizado con un equipo en un emprendimiento propio, realizado con las herramientas Svelte y Tailwind CSS." />
     </div>
     </section>
   );
