@@ -38,5 +38,5 @@ I am a **Systems Engineering Student @ UTN Villa María**.
 
 
 ## 🌐 Connect with me:
-- Portfolio: [devlucas.me](https://portfoliov2-ten-umber.vercel.app/)
+- Portfolio: [lucasdev.works](https://www.lucasdev.works/)
 - LinkedIn: [Lucas Pereira Da Silva](https://www.linkedin.com/in/luucaas-pereira-da-silva/)
